@@ -1,10 +1,7 @@
 
 	See english version below.
 
-
-
 	ESPAÑOL.
-
 
 	Pasmo, ensablador Z80 cruzado multiplataforma.
 	(C) 2004-2022 Julián Albo
@@ -16,6 +13,12 @@
 	Para compilar:
 		./configure
 		make
+
+    Para compilar y generar ejecutable autocontenido que no requiera dlls:
+        make CFLAGS="-Os" CXXFLAGS="-Os" LDFLAGS="-static"
+    
+    Para reducir el tamaño del ejecutable una vez hecho make:
+        strip pasmo.exe
 
 	Para instalar:
 		make install
