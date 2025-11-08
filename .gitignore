@@ -1,0 +1,15 @@
+# Autoconf files (./configure)
+Makefile
+config.log
+config.status
+autom4te.cache/
+
+# Ignore dependencies
+*.deps
+
+# Ignore binary objects
+*.o
+*.obj
+
+# Ignore .exe
+pasmo.exe
